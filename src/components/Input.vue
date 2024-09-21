@@ -4,5 +4,9 @@
 </script>
 
 <template>
-	<input type="text" @input="emit('input-change', $event.target.value)" />
+	<input
+		type="text"
+		:value="props.value.value"
+		@input="emit('input-change', $event.target.value)"
+	/>
 </template>
