@@ -7,14 +7,14 @@
 
 	if (!toDosContext) throw Error('toDosContext must exist');
 
-	const { input, onInputChange, onButtonClick } = useForm(toDosContext.addToDo);
+	const form = useForm(toDosContext.addToDo);
 </script>
 
 <template>
 	<div class="form">
-		<Input :value="input" @input-change="onInputChange" />
+		<Input :value="form.input" @input-change="form.onInputChange" />
 
-		<button class="button" @click="onButtonClick">Add toDo</button>
+		<button class="button" @click="form.onButtonClick">Add new</button>
 	</div>
 </template>
 

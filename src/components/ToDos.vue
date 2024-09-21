@@ -11,3 +11,11 @@
 		</template>
 	</div>
 </template>
+
+<style scoped>
+	.to-dos {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+</style>

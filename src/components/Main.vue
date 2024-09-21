@@ -22,6 +22,7 @@
 		margin-block-start: 3rem;
 		display: flex;
 		flex-direction: column;
+		align-items: stretch;
 		gap: 2rem;
 	}
 </style>
