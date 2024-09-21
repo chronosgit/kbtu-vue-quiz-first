@@ -29,5 +29,12 @@
 		padding: 0.5rem 1rem;
 		border: 1px solid black;
 		border-radius: 1rem;
+		transition: all 0.1s ease;
+	}
+
+	.button:hover {
+		color: white;
+		background-color: rgb(72, 189, 72);
+		border-color: rgb(72, 189, 72);
 	}
 </style>
